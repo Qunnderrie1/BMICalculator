@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 id="myText" class="myText">BMI Calculator</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="userMale" id="userLabel">Male</label>
+                <input type="checkbox" name="userMale" id="userMale">
+                <label for="userFemale"id="userLabel">Female</label>
+                <input type="checkbox" name="userFemale" id="userFemale">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="userName" placeholder="Enter your name" maxlength="20">
+            </div>
+        </div>
+        <div class="row">
+            <div class="HeightCol col">
+                <label for="userFeet">Height</label>
+                <input type="text" name="userFeet" id="userFeet" placeholder="Feet" maxlength="1">      
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" name="userInches" id="userInches" placeholder="Inches" maxlength="2">
+            </div>
+        </div>
+            <div class="row">
+                <div class="Weight col">
+                    <label for="name">Weight</label>
+                    <input type="text" name="userWeight" id="userWeight" placeholder="lbs" maxlength="3">       
+                </div>
+            </div>
+        <div class="row">
+            <div class="userResults col">
+                <h3 class="bmiName">Your BMI:</h3>
+                <p class="webResults"></p>
+                <p id="webResultsText" class="webResultsText"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button  id="CalculateBtn "class="calculate shadow btn btn-lg">Calculate</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="PracticeJavascript.js"></script>
+</body>
+</html>

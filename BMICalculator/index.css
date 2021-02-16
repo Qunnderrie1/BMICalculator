@@ -1,0 +1,110 @@
+body
+{
+    background-color: #314e52;
+    text-align: center;
+    position: relative;
+
+}
+.myText
+{
+    margin-left: 25px;
+}
+h1
+{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    color:#e7e6e1;
+}
+.container
+{
+    text-align: center;
+}
+.container:focus
+{
+    text-align: center;
+    background-color: yellow;
+}
+#userName
+{
+    margin-top: 50px;
+}
+#userName:focus
+{
+    background-color: rgb(255, 255, 134);
+}
+#userFeet
+{
+    margin-top: 50px;
+}
+#userInches
+{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#userWeight
+{
+    margin-top: 100px;
+}
+.btn
+{
+    margin-top: 50px;
+    background-color: #f2a154;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.btn:hover
+{
+    margin-top: 100px;
+    background-color: #f2a154;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.userResults
+{
+    margin-top: 50px;
+}
+
+@keyframes displayResults
+{
+    from
+    {
+        transform: translateY(100%);
+    }
+    to
+    {
+        transform: translateY(0%);
+    }
+}
+.webResultsText
+{
+    color:#e7e6e1;
+    animation-name: displayResults;
+    animation-duration: 1s;
+    position: relative;
+}
+.webResults
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e7e6e1;
+    animation-name: displayResults;
+    animation-duration: 1s;
+}
+
+label{
+    color: #e7e6e1;
+}
+h3{
+    color: #e7e6e1;
+}
+#userMale
+{
+    margin-right: 40px;
+}
+#userLabel
+{
+    margin-right: 20px;
+}
